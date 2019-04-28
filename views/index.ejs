@@ -1,0 +1,563 @@
+<%- include('header') %>
+<!-- <div
+  class="background-image"
+  style="background-image: url('https://images.unsplash.com/photo-1507088861996-1ff7e386e23e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1366&q=80');"
+></div> -->
+<div
+  class="align-center"
+  style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;"
+>
+  <div class="container">
+    <a class="logo" href="#home">
+      <img src="./img/logo-puzzle.png" alt="logo" />
+      <span>mat<span style="font-weight: 700;">chat</span></span>
+    </a>
+    <div class="header">
+      <a href="#home" class="button button-small button-glass">
+        Home
+      </a>
+      <a href="#findMentor" class="button button-small button-glass">
+        Mentor
+      </a>
+      <a href="#findMentee" class="button button-small button-glass">
+        Mentee
+      </a>
+      <a href="#about" class="button button-small button-glass">
+        About us
+      </a>
+    </div>
+  </div>
+</div>
+<div style="position: relative; width: 100%; height: 100%;">
+  <div class="content-center" style="height: 100%;">
+    <div id="login" class="contents">
+      <a class="button button-facebook button-small" href="#signup">
+        <i class="fab fa-facebook fa-2x" style="vertical-align: middle;"></i
+        ><span style="vertical-align: middle;"
+          >&nbsp;&nbsp;&nbsp;Signin with Facebook</span
+        > </a
+      ><br />
+      or <br />
+      <a
+        class="button button-glass button-small"
+        href="#signup"
+        style="border: none;"
+      >
+        Signup with E-mail
+      </a>
+    </div>
+    <div id="signup" class="contents">
+      <table>
+        <tr>
+          <td style="width: 64px;">
+            お仕事
+          </td>
+          <td>
+            <select name="" id="">
+              <option value="">Student</option>
+              <option value="">Marketer</option>
+              <option value="">IT Pro</option>
+              <option value="">naninani</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 64px;">
+            年
+          </td>
+          <td>
+            <select name="" id="">
+              <option value="">＜１年</option>
+              <option value="">1年～3年</option>
+              <option value="">3年～5年</option>
+              <option value="">＞5年</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 64px;">
+            専門
+          </td>
+          <td>
+            <select name="" id="">
+              <option value="">Marketer</option>
+              <option value="">IT Pro</option>
+              <option value="">naninani</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 64px;">
+            地域
+          </td>
+          <td>
+            <select name="" id="">
+              <option>北海道 </option
+              ><option>岩手県 </option
+              ><option>福島県 </option
+              ><option>長野県 </option
+              ><option>新潟県 </option
+              ><option>秋田県 </option
+              ><option>岐阜県 </option
+              ><option>青森県 </option
+              ><option>山形県 </option
+              ><option>鹿児島県</option
+              ><option>広島県 </option
+              ><option>兵庫県 </option
+              ><option>静岡県 </option
+              ><option>宮崎県 </option
+              ><option>熊本県 </option
+              ><option>宮城県 </option
+              ><option>岡山県 </option
+              ><option>高知県 </option
+              ><option>島根県 </option
+              ><option>栃木県 </option
+              ><option>群馬県 </option
+              ><option>大分県 </option
+              ><option>山口県 </option
+              ><option>茨城県 </option
+              ><option>三重県 </option
+              ><option>愛媛県 </option
+              ><option>愛知県 </option
+              ><option>千葉県 </option
+              ><option>福岡県 </option
+              ><option>和歌山県</option
+              ><option>京都府 </option
+              ><option>山梨県 </option
+              ><option>富山県 </option
+              ><option>福井県 </option
+              ><option>石川県 </option
+              ><option>徳島県 </option
+              ><option>長崎県 </option
+              ><option>滋賀県 </option
+              ><option>埼玉県 </option
+              ><option>奈良県 </option
+              ><option>鳥取県 </option
+              ><option>佐賀県 </option
+              ><option>神奈川県</option
+              ><option>沖縄県 </option
+              ><option>東京都 </option
+              ><option>大阪府 </option
+              ><option>香川県 </option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+      <a href="#home" class="button button-small button-highlight">
+        提出
+      </a>
+    </div>
+    <div id="home" class="contents">
+      <a
+        class="button button-glass align-left"
+        href="#findMentor"
+        style="max-width: 360px;"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=480&q=80"
+          alt=""
+          style="width: 100%; max-width: 360px;"
+        /><br />
+        <b>Find Mentor</b>
+        <br />
+        <span style="font-weight: 400;"
+          >もし悩みがあれば探してください。</span
+        >
+      </a>
+
+      <a
+        class="button button-glass align-left"
+        href="#findMentee"
+        style="max-width: 360px;"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=480&q=80"
+          alt=""
+          style="width: 100%; max-width: 360px;"
+        /><br />
+        <b>Find Mentee</b>
+        <br />
+        <span style="font-weight: 400;"
+          >もし悩みがある人を助けたい探してください。</span
+        >
+      </a>
+    </div>
+    <div id="findMentor" class="contents">
+      <span class="text-title">Find a mentor</span>
+      <br />
+      <br />
+      <span class="text-subtitle"
+        >メンターを探しましょう！！</span
+      >
+      <br />
+      <br />
+      <br />
+      <table>
+        <tr>
+          <td style="width: 64px">
+            お仕事
+          </td>
+          <td>
+            <select name="" id="">
+              <option value="">Marketer</option>
+              <option value="">IT Pro</option>
+              <option value="">Other...</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 64px;">
+            地域
+          </td>
+          <td>
+            <select name="" id="">
+              <option>北海道</option
+              ><option>岩手県</option
+              ><option>福島県</option
+              ><option>長野県</option
+              ><option>新潟県</option
+              ><option>秋田県</option
+              ><option>岐阜県</option
+              ><option>青森県</option
+              ><option>山形県</option
+              ><option>鹿児島県</option
+              ><option>広島県</option
+              ><option>兵庫県</option
+              ><option>静岡県</option
+              ><option>宮崎県</option
+              ><option>熊本県</option
+              ><option>宮城県</option
+              ><option>岡山県</option
+              ><option>高知県</option
+              ><option>島根県</option
+              ><option>栃木県</option
+              ><option>群馬県</option
+              ><option>大分県</option
+              ><option>山口県</option
+              ><option>茨城県</option
+              ><option>三重県</option
+              ><option>愛媛県</option
+              ><option>愛知県</option
+              ><option>千葉県</option
+              ><option>福岡県</option
+              ><option>和歌山県</option
+              ><option>京都府</option
+              ><option>山梨県</option
+              ><option>富山県</option
+              ><option>福井県</option
+              ><option>石川県</option
+              ><option>徳島県</option
+              ><option>長崎県</option
+              ><option>滋賀県</option
+              ><option>埼玉県</option
+              ><option>奈良県</option
+              ><option>鳥取県</option
+              ><option>佐賀県</option
+              ><option>神奈川県</option
+              ><option>沖縄県</option
+              ><option>東京都</option
+              ><option>大阪府</option
+              ><option>香川県</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+      <br />
+      <a href="#foundMentor" class="button button-small button-highlight">
+        次へ。。。
+      </a>
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+    <div id="foundMentor" class="contents">
+      <span class="text-title">Find a mentor</span>
+      <br />
+      <table>
+        <tr>
+          <td>
+            <select name="" id="">
+              <option value="">Marketer</option>
+              <option value="">IT Pro</option>
+              <option value="">Other...</option>
+            </select>
+          </td>
+          <td>
+            <select name="" id="">
+              <option>北海道 </option
+              ><option>岩手県 </option
+              ><option>福島県 </option
+              ><option>長野県 </option
+              ><option>新潟県 </option
+              ><option>秋田県 </option
+              ><option>岐阜県 </option
+              ><option>青森県 </option
+              ><option>山形県 </option
+              ><option>鹿児島県</option
+              ><option>広島県 </option
+              ><option>兵庫県 </option
+              ><option>静岡県 </option
+              ><option>宮崎県 </option
+              ><option>熊本県 </option
+              ><option>宮城県 </option
+              ><option>岡山県 </option
+              ><option>高知県 </option
+              ><option>島根県 </option
+              ><option>栃木県 </option
+              ><option>群馬県 </option
+              ><option>大分県 </option
+              ><option>山口県 </option
+              ><option>茨城県 </option
+              ><option>三重県 </option
+              ><option>愛媛県 </option
+              ><option>愛知県 </option
+              ><option>千葉県 </option
+              ><option>福岡県 </option
+              ><option>和歌山県</option
+              ><option>京都府 </option
+              ><option>山梨県 </option
+              ><option>富山県 </option
+              ><option>福井県 </option
+              ><option>石川県 </option
+              ><option>徳島県 </option
+              ><option>長崎県 </option
+              ><option>滋賀県 </option
+              ><option>埼玉県 </option
+              ><option>奈良県 </option
+              ><option>鳥取県 </option
+              ><option>佐賀県 </option
+              ><option>神奈川県</option
+              ><option>沖縄県 </option
+              ><option>東京都 </option
+              ><option>大阪府 </option
+              ><option>香川県 </option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+
+      <a
+        class="button button-glass align-left"
+        href="#chatting"
+        style="max-width: 360px;"
+      >
+        <img
+          src="https://randomuser.me/api/portraits/men/9.jpg"
+          alt=""
+          style="width: 100%; max-width: 360px;"
+        /><br />
+        <b>藤原竜也</b>さん
+        <br />
+        <span style="font-weight: 400;">Marketer, ＞5年</span>
+      </a>
+      <a
+        class="button button-glass align-left"
+        href="#chatting"
+        style="max-width: 360px;"
+      >
+        <img
+          src="https://randomuser.me/api/portraits/women/1.jpg"
+          alt=""
+          style="width: 100%; max-width: 360px;"
+        /><br />
+        <b>熊本涼子</b>さん
+        <br />
+        <span style="font-weight: 400;">Marketer, ＞5年</span>
+      </a>
+      <a
+        class="button button-glass align-left"
+        href="#chatting"
+        style="max-width: 360px;"
+      >
+        <img
+          src="https://randomuser.me/api/portraits/women/3.jpg"
+          alt=""
+          style="width: 100%; max-width: 360px;"
+        /><br />
+        <b>福本大輔</b>さん
+        <br />
+        <span style="font-weight: 400;">Marketer, ＞5年</span>
+      </a>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+    <div id="findMentee" class="contents">
+      <span class="text-title">Find a mentee</span>
+      <br />
+      <br />
+      <span class="text-subtitle">悩みを解決しましょう。</span>
+      <table>
+        <tr>
+          <td>
+            <select name="" id="">
+              <option value="">Marketer</option>
+              <option value="">IT Pro</option>
+              <option value="">Other...</option>
+            </select>
+          </td>
+          <td>
+            <select name="" id="">
+              <option>北海道 </option
+              ><option>岩手県 </option
+              ><option>福島県 </option
+              ><option>長野県 </option
+              ><option>新潟県 </option
+              ><option>秋田県 </option
+              ><option>岐阜県 </option
+              ><option>青森県 </option
+              ><option>山形県 </option
+              ><option>鹿児島県</option
+              ><option>広島県 </option
+              ><option>兵庫県 </option
+              ><option>静岡県 </option
+              ><option>宮崎県 </option
+              ><option>熊本県 </option
+              ><option>宮城県 </option
+              ><option>岡山県 </option
+              ><option>高知県 </option
+              ><option>島根県 </option
+              ><option>栃木県 </option
+              ><option>群馬県 </option
+              ><option>大分県 </option
+              ><option>山口県 </option
+              ><option>茨城県 </option
+              ><option>三重県 </option
+              ><option>愛媛県 </option
+              ><option>愛知県 </option
+              ><option>千葉県 </option
+              ><option>福岡県 </option
+              ><option>和歌山県</option
+              ><option>京都府 </option
+              ><option>山梨県 </option
+              ><option>富山県 </option
+              ><option>福井県 </option
+              ><option>石川県 </option
+              ><option>徳島県 </option
+              ><option>長崎県 </option
+              ><option>滋賀県 </option
+              ><option>埼玉県 </option
+              ><option>奈良県 </option
+              ><option>鳥取県 </option
+              ><option>佐賀県 </option
+              ><option>神奈川県</option
+              ><option>沖縄県 </option
+              ><option>東京都 </option
+              ><option>大阪府 </option
+              ><option>香川県 </option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+
+      <a
+        class="button button-glass align-left"
+        href="#chatting"
+        style="max-width: 360px;"
+      >
+        <img
+          src="https://randomuser.me/api/portraits/men/1.jpg"
+          alt=""
+          style="width: 100%; max-width: 360px;"
+        /><br />
+        <b>熊本亮一</b>さん
+        <br />
+        <span style="font-weight: 400;">Student, 1年</span>
+      </a>
+      <a
+        class="button button-glass align-left"
+        href="#chatting"
+        style="max-width: 360px;"
+      >
+        <img
+          src="https://randomuser.me/api/portraits/women/3.jpg"
+          alt=""
+          style="width: 100%; max-width: 360px;"
+        /><br />
+        <b>高山唯香</b>さん
+        <br />
+        <span style="font-weight: 400;">Student, 2年</span>
+      </a>
+      <a
+        class="button button-glass align-left"
+        href="#chatting"
+        style="max-width: 360px;"
+      >
+        <img
+          src="https://randomuser.me/api/portraits/men/5.jpg"
+          alt=""
+          style="width: 100%; max-width: 360px;"
+        /><br />
+        <b>小笠原文太郎</b>さん
+        <br />
+        <span style="font-weight: 400;">Student, 4年</span>
+      </a>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+    <div id="foundMentee" class="contents"></div>
+    <div
+      id="chatting"
+      class="contents"
+      style="width: 100%; max-width: 480px; height: 100%; text-align: left;"
+    >
+      <div>
+        <span class="text-subtitle">Chat</span>
+        <br />
+        <br />
+        <div id="chatList">
+          <!-- <table>
+            <tr>
+              <td>
+                <img
+                  src="https://randomuser.me/api/portraits/men/8.jpg"
+                  alt=""
+                  style="width: 100%; max-width: 48px; border-radius: 50%; vertical-align: middle;"
+                />
+                <span style="vertical-align: middle; font-weight: 700;"
+                  >マロ</span
+                >
+              </td>
+              <td style="text-align: right;">
+                2019-04-28
+              </td>
+            </tr>
+            <tr>
+              <td>
+                こんにちは。
+              </td>
+            </tr>
+          </table> -->
+        </div>
+        <div
+          style="width:100%;height:auto;
+        position:absolute;bottom:8px;left:0; text-align: cetner;"
+        >
+          <form id="frmChat">
+            <input id="inputChat"
+              style="width:100%;height:auto;position: relative;padding: 8px 16px;border:1px solid #262626; max-width: 480px; margin: 0 auto; display: block;"
+              placeholder="chat..."
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('footer') %>
